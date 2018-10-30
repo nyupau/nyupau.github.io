@@ -1,0 +1,8 @@
+{{ if .Site.Params.ShowReadTime }}
+  A {{ .ReadingTime }} minute read,
+{{ end }}
+Posted by <a href="#">{{ if isset .Params "author" }} {{ $author := index .Site.Data.authors .Params.author }} {{ $author.name }} {{ else }} Unknown {{ end }}</a> on {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}
+<br />
+{{ partial "categories.html" .}}
+<br />
+{{ partial "tags.html" .}}
