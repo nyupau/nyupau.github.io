@@ -6,6 +6,8 @@ canonifyurls: true
 paginate: 10
 copyright: Code released under the Apache 2.0 license.
 
+publishDir: docs ## for github pages from master branch
+
 params:
   DateForm: 'Jan 2, 2006'
   Description: Our Lab website
