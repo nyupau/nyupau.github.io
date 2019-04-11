@@ -1,0 +1,18 @@
+## starting with img-circle from the theme
+## two sizes: large as 300, small as 100
+
+.avatar-large {
+  width: 300px;
+}
+
+.avatar-large.img-circle {
+  width: 300px;
+  #border: 2px solid #000; 
+  #border-radius: 50%;
+}
+
+.avatar-small.img-circle {
+  width: 100px;
+  #border: 1px solid #000;
+  #border-radius: 50%;
+}

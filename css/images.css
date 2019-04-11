@@ -1,0 +1,13 @@
+## two sizes: full as 100% and large as 80%
+
+.image-full {
+  width: 100%;
+  min-width: 10em; /* Will be AT LEAST 10em wide */
+  max-width: 20em; /* Will be AT MOST 20em wide */
+}
+
+.image-large {
+  width: 80%;
+  min-width: 10em; /* Will be AT LEAST 10em wide */
+  max-width: 20em; /* Will be AT MOST 20em wide */
+}

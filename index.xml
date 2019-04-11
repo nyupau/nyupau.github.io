@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NYU Predictive Analytics Unit</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on NYU Predictive Analytics Unit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>The Predictive Analytics Unit (PAU) at NYU Langone Health focuses on translating predictive models into clinical practice and understanding the science and barriers involved. Our group:
+ Provides internal capacity for predictive modeling at NYULH to facilitate real-time clinical decision-making, increase operational efficiency, and build foundation for a learning healthcare system. Leads specific projects from inception through development, deployment, and evaluation. Provides education and professional development to support building a data-driven organization.</description>
+    </item>
+    
+    <item>
+      <title>Two Quotes</title>
+      <link>http://localhost:1313/posts/two-quotes/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/two-quotes/</guid>
+      <description> Two quotes To start off our new website, we wanted to share two quotes.
+The first is from Yin:
+ &amp;ldquo;It is difficult to make predictions, especially about the future.&amp;rdquo; (English translation)
+&amp;ldquo;Det er vanskeligt at spaa, især naar det gælder Fremtiden.&amp;rdquo;
+ And the second, slightly less profound, quote is from Walter:
+ &amp;ldquo;Have you tried changing the learning rate?&amp;rdquo;
+ </description>
+    </item>
+    
+    <item>
+      <title>Himanshu Grover</title>
+      <link>http://localhost:1313/team/himanshu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/himanshu/</guid>
+      <description>Himanshu Grover, PhD, is a Data Science Analyst / Engineer with PAU. His interests and work lie at the interface of data science and software engineering, focusing on applications in healthcare. As a member of the PAU, he applies modern principles and best practices for building robust, performant, scalable systems for analysis and informatics of large-scale clinical data.
+Himanshu obtained his MS and PhD degrees in Biomedical Informatics from the University of Pittsburgh.</description>
+    </item>
+    
+    <item>
+      <title>Jager Hartman</title>
+      <link>http://localhost:1313/team/jager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/jager/</guid>
+      <description>Jager Hartman, MS, is a Data Science Analyst / Engineer at the Predictive Analytics Unit. Jager Graduated Columbia Engineering with a MS in Data Science December 2017. Prior to Columbia, Jager attended Kalamazoo College where he received a BA with a dual major in Chemistry and Mathematics.
+His prior work includes: consulting with New Lab City in smart city technology, explored the use of the Mapper algorithm for drug discovery at Kalamazoo College, research in glycomic post-translational modification at University of Kansas, worked with surface doping of organo-electronics at Loyola University Chicago, and total synthesis for a new analgesic as well as green organic synthetic methodologies at Western Michigan University.</description>
+    </item>
+    
+    <item>
+      <title>Ji Chen</title>
+      <link>http://localhost:1313/team/ji/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/ji/</guid>
+      <description>Ji Chen, MS, is a PhD student mentored by Yin Aphinyanaphongs. His current research focuses on building personalized clinical decision support (CDS) tools exploiting electronic health record data and machine learning and deep learning techniques.
+Ji received his MS in Biology from NYU and his BA in Agronomy from Zhejiang University, China.</description>
+    </item>
+    
+    <item>
+      <title>Marina Marin</title>
+      <link>http://localhost:1313/team/marina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/marina/</guid>
+      <description>Marina Marin, McS, is an Associate Director of Information Management at the New York University School of Medicine. Her current work and interests are focused on the intersection of data management and machine learning in the medical industry. Her main mission at the Predictive Analytics Unit is to enable smooth data flows for model building and production environments. Marina is also the Chief of the Education Data Section at the Institute of Innovations in Medical Education (IIME).</description>
+    </item>
+    
+    <item>
+      <title>Michael Quinn</title>
+      <link>http://localhost:1313/team/michael/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/michael/</guid>
+      <description>Michael Quinn is a Project Manager working with PAU. His interests and work lie in predictive modeling applications within healthcare and efficiency improvements. As a member of both the PAU and MCIT, Michael is responsible for project oversight of research initiatives, as well as ensuring models and healthcare applications are effectively implemented.
+Michael is currently pursuing his MS in Epidemiology from Columbia University, with focuses on oncology and specialty pharma. In addition, Michael obtained his BA in Economics from New York University.</description>
+    </item>
+    
+    <item>
+      <title>Neil Jethani</title>
+      <link>http://localhost:1313/team/neil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/neil/</guid>
+      <description>Neil Jethani is an MD/PhD Candidate mentored by Yin Aphinyanaphongs. Having completed his preclinical years of medical school, Neil joined PAU and the Aphinyanaphongs Lab in the summer of 2018. Since joining, he has been involved with retrospectively analysing EHR data as well as developing deep learning models for prediction tasks that ingest EHR data. Currently, he is interested in developing deep learning techniques that address the unique structure of EHR data.</description>
+    </item>
+    
+    <item>
+      <title>Po Lai Yau</title>
+      <link>http://localhost:1313/team/polai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/polai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob Hammond</title>
+      <link>http://localhost:1313/team/rob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/rob/</guid>
+      <description>Rob Hammond, MS, is an Associate Data Science Analyst/Engineer at the NYU Langone Health Comprehensive Program on Obesity. Since joining in 2017, he has worked on building a pipeline to conduct machine learning research using retrospective pediatric EHR and publicly available data to better understand the variance in factors contributing to the obesity epidemic. Rob obtained his MS in Data Science from NYU and BS in Mathematics from Saint Michael’s College.</description>
+    </item>
+    
+    <item>
+      <title>Seda Bilaloglu</title>
+      <link>http://localhost:1313/team/seda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/seda/</guid>
+      <description>Seda Bilaloglu, MS, is a Data Scientist/Engineer with PAU, since joining NYULH in 2018, Seda has been working on building models with clinical notes to predict mortality, using medications data to predict icd codes, and building software through Redcap API to generate surveys for clinicians for model verification and reporting infrastructure. She is interested in deep learning for EHR and predicting disease onset, natural language processing, time series analysis and rehabilitation engineering research.</description>
+    </item>
+    
+    <item>
+      <title>Vincent Major</title>
+      <link>http://localhost:1313/team/vincent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/vincent/</guid>
+      <description>Vincent Major, ME MS, is a PhD Candidate mentored by Yin Aphinyanaphongs. Since joining NYU in 2015, Vincent has been working with PAU applying machine learning and deep learning techniques to electronic medical record data.
+Vincent obtained a MS in Biomedical Informatics from NYU and previously a ME in Bioengineering and a BE(Hons) in Mechanical Engineering from the University of Canterbury, New Zealand. Vincent’s research in New Zealand studied the respiratory dynamics of critical care patients supported by invasive mechanical ventilation using mathematical modeling and signal processing methods.</description>
+    </item>
+    
+    <item>
+      <title>Vuthy Nguy</title>
+      <link>http://localhost:1313/team/vuthy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/vuthy/</guid>
+      <description>Vuthy Nguy, MS, is a Data Science Analyst/Engineer with PAU. Vuthy was a technology consultant for over 13 years with delivery experience in various roles of the system delivery life cycle throughout his career. Vuthy obtained his Masters Degree in Data Science in 2018 and is excited to bring his experience in technology to the PAU.</description>
+    </item>
+    
+    <item>
+      <title>Walter Wang</title>
+      <link>http://localhost:1313/team/walter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/walter/</guid>
+      <description>Walter Wang, MS, is a Data Science Analyst / Engineer with PAU. His responsibilities include building and deploying containerized applications for analysis and processing of informatics data. In addition he works on leveraging health informatics in the effort to enhance health care delivery.</description>
+    </item>
+    
+    <item>
+      <title>Yin Aphinyanaphongs</title>
+      <link>http://localhost:1313/team/yin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/yin/</guid>
+      <description>Yin Aphinyanaphongs is a physician scientist and is the founding Director of the PAU at NYU. He received his MD and PhD degrees from Vanderbilt University in 2010. His goal is to demonstrate the potential of Artificial Intelligence in healthcare through the combination of research and operations. The Predictive Analytics Unit is the realization of the technical, social, and organizational structures needed to successfully translate clinical predictive models to the bedside.</description>
+    </item>
+    
+  </channel>
+</rss>

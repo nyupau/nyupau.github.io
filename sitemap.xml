@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/two-quotes/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/himanshu/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/jager/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/ji/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/marina/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/michael/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/misc/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/misc/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/neil/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/polai/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/rob/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/seda/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/vincent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/vuthy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/walter/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/team/yin/</loc>
+  </url>
+  
+</urlset>
