@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nyupau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Projects</title>
+      <link>https://nyupau.github.io/projects/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nyupau.github.io/projects/</guid>
+      <description>Project descriptions coming soon!</description>
+    </item>
     
     <item>
       <title>About Us</title>
@@ -101,7 +110,8 @@ Michael is currently pursuing his MS in Epidemiology from Columbia University, w
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nyupau.github.io/team/polai/</guid>
-      <description></description>
+      <description>Po Lai Yau, PhD, Research Assistant Professor, is a neuropsychologist with extensive IT industry and project management backgrounds. Currently, she takes on the Data Manager role at the Predictive Analytics Unit overseeing management of data from diverse sources.
+In 2017, she joined the Comprehensive Program on Obesity as a Data Engineer and implemented a web-based data portal, which was being promoted at the institutional level. Prior to joining the Dept of Population Health, Po Lai had managed the Neuroimaging Core at the Brain, Obesity and Diabetes Lab in the Psychiatry Department of NYULH.</description>
     </item>
     
     <item>
