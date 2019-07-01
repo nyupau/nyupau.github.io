@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+
+    <title>Amazon Comprehend Medical and AI in Healthcare -- NYU Predictive Analytics Unit</title>
+
+    
+
+    
+    <link href="https://nyupau.github.io//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://nyupau.github.io//css/clean-blog.min.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="%3cabsolute%20path%20to%20CSS%3e"><link rel="stylesheet" type="text/css" href="https://nyupau.github.io/static/css/avatar.css"><link rel="stylesheet" type="text/css" href="https://nyupau.github.io/static/css/images.css"><link rel="stylesheet" type="text/css" href="https://nyupau.github.io/static/css/tables.css"><link rel="stylesheet" type="text/css" href="https://nyupau.github.io/css/avatar.css"><link rel="stylesheet" type="text/css" href="css/avatar.css"><link rel="stylesheet" type="text/css" href="%3cor%20just%20load%20it%20off%20the%20internet%3e">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://nyupau.github.io/">NYU Predictive Analytics Unit</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://nyupau.github.io/">home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://nyupau.github.io/about/">about us</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://nyupau.github.io/posts/">posts</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://nyupau.github.io/projects/">projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://nyupau.github.io/team/">our team</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://nyupau.github.io//img/post-bg.jpg')">
+    
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Amazon Comprehend Medical and AI in Healthcare</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">
+                 
+  A 9 minute read,
+
+Posted by <a href="#">   </a> on Jul 1, 2019
+<br />
+In <a href="https://nyupau.github.io/categories/blog">Blog</a>
+
+<br />
+Tags <a href="https://nyupau.github.io/tags/vendor">vendor</a>, <a href="https://nyupau.github.io/tags/nlp">nlp</a>
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <p>The field of medicine is undergoing a massive transformation with widespread adoption and meaningful use of health information technology, promoted by the
+<a href="https://www.hhs.gov/hipaa/for-professionals/special-topics/hitech-act-enforcement-interim-final-rule/index.html" target="_blank">HITECH (Health Information Technology for Economic and Clinical Health) Act of 2009</a>.
+With clinical practice now becoming increasingly data-driven, new tools powered by machine learning and artificial intelligence are being mobilized to solve tough problems.</p>
+
+<p>A large proportion of patient healthcare data is recorded in the form of free-text narratives, such as admission and progress notes, consult notes, and discharge summaries. A few numbers (from United States) will put the scope into perspective: 35.1 million hospital discharges (2010), 51.4 million procedures performed (2010) and 125.7 million outpatient department visits (2011). Each of these encounters produced at least one medical note. This gold-mine of information largely remains locked away due to the complex nature and composition of medical notes. The promise of an intelligent, data-driven health system relies on the ability to extract knowledge from this digital footprint, to drive reporting, compliance, and improvements in the delivery of care.</p>
+
+<p>Recently, several commercial companies have started providing pay-to-use APIs that ingest medical notes and extract relevant information in a structured format that is more amenable to further analysis and use in downstream applications. A notable example is Amazon Web Services’ (AWS)
+<a href="https://aws.amazon.com/comprehend/medical/" target="_blank">Comprehend Medical (ACM)</a>.
+ACM’s API endpoint processes unstructured clinical notes and outputs structured entities and their relationships derived from concepts such as medical conditions, lab tests, medications, treatments, and procedures, in addition to protected health information (PHI) [1]. From what we have gathered from several recently published papers, the machinery behind ACM is driven by state-of-the-art deep learning algorithms [2-5]. A sample output from ACM web console, as shown in Figure 1, demonstrates the nature of information extracted.</p>
+
+<p><a href="https://nyupau.github.io/img/blog_acm_text_output.jpg" target="_blank"><img src="https://nyupau.github.io/img/blog_acm_text_output.jpg" alt="Amazon Comprehend Medical output" width=100%></a>
+<em>Figure 1: (A) Sample clinical text note as adapted from Koda Kimble and Young’s Applied Therapeutics - The Clinical Use of Drugs: Case 102-5 [6] and (B) ACM’s web console output, with extracted medical entities and their relationships.</em></p>
+
+<p>ACM presents a compelling product in the form of a single, easy-to-use API to extract information, and thus clinical value from medical notes. However, uptake and trust in any new data product relies on independent validation across datasets and/or tools to establish and confirm expected quality of results. In that spirit, we validated ACM’s initial version that was released on November 27, 2018. Specifically, we focused on the medication extraction sub-task, which seeks to draw out medication entities and relationships from medical notes. This is a crucial task as medications play a vital role in patient care. In this context, ACM can surface the following fields of information: a) generic and brand name, b) dosage, c) frequency, d) route/mode, e) duration, f) strength, and g) form, and h) rate.</p>
+
+<p>We conducted our evaluation on the publicly available benchmark dataset from the
+<a href="https://www.i2b2.org/NLP/DataSets/Main.php" target="_blank">2009 Informatics for Integrating Biology &amp; the Bedside (i2b2) Medication Extraction Challenge</a>.
+This dataset was compiled from discharge summaries from Partner’s Healthcare in Boston, MA. Using such a benchmark is ideal because it allows consistent comparison across systems built for the same task. In this dataset, 696 notes were designated as training set for building the algorithms and 251 notes were reserved for unbiased testing. Test set notes were manually annotated for targets of interest, which included only medication name, dosage, frequency, route/mode, and reason [8]; these comprise the gold-standard (true) labels for evaluation. We measured the performance of ACM on the test set, using the competition’s three evaluation metrics:</p>
+
+<ol>
+<li><strong>Precision</strong>, which captures the proportion of gold-standard labels among all labels assigned by the system.</li>
+<li><strong>Recall</strong>, which captures the proportion of all gold standard labels in the test set that are recovered by the system.</li>
+<li><strong>F-score</strong> is the harmonic mean of precision and recall, which can be used as a single composite metric concealing the tradeoff between precision and recall.</li>
+</ol>
+
+<p>We compared ACM’s performance with: a)
+<a href="https://academic.oup.com/jamia/article/17/5/524/831076" target="_blank">Patrick et. al</a>
+[9], which uses a combination of machine learning and rule-based methods; b)
+<a href="https://academic.oup.com/jamia/article/17/5/528/831233" target="_blank">Doan et. al</a>
+[10], which was a purely rule-based algorithm; and c)
+<a href="https://www.sciencedirect.com/science/article/pii/S1532046417301582" target="_blank">Tao et. al</a>
+[11], which is a more recent machine learning algorithm developed using the i2b2 dataset. The first two were the top two performers in the medication extraction challenge, respectively. As in the original competition, F-score is the main evaluation metric used to compare the different systems.</p>
+
+<p>Table 1 summarizes the results from our preliminary investigation. In the context of the i2b2 test dataset, and on this specific task, ACM appears to achieve the lowest F-score among all systems compared.</p>
+
+<style>.vjm-table { width:100%; } .vjm-table th {padding: 0px; text-align: center;}, .vjm-table td { padding: 5px; }</style>
+
+<p><em>Table 1. System performance on the i2b2 test set.</em>
+
+
+
+    
+        
+    
+    
+
+<table class="vjm-table">
+<thead>
+<tr>
+<th align="center">System</th>
+<th align="center">Recall</th>
+<th align="center">Precision</th>
+<th align="center">F-Score</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">Patrick et. al</td>
+<td align="center"><strong>0.896</strong></td>
+<td align="center">0.820</td>
+<td align="center">0.857</td>
+</tr>
+
+<tr>
+<td align="center">Doan et. al</td>
+<td align="center">0.840</td>
+<td align="center">0.803</td>
+<td align="center">0.821</td>
+</tr>
+
+<tr>
+<td align="center">Tao et. al</td>
+<td align="center">0.848</td>
+<td align="center"><strong>0.879</strong></td>
+<td align="center"><strong>0.864</strong></td>
+</tr>
+
+<tr>
+<td align="center">ACM-without-reason</td>
+<td align="center">0.801</td>
+<td align="center">0.737</td>
+<td align="center"><u>0.768</u></td>
+</tr>
+
+<tr>
+<td align="center">ACM-perfect-reason</td>
+<td align="center">0.814</td>
+<td align="center">0.753</td>
+<td align="center"><u>0.782</u></td>
+</tr>
+
+<tr>
+<td align="center">ACM-competitive-reason</td>
+<td align="center">0.797</td>
+<td align="center">0.713</td>
+<td align="center"><u>0.752</u></td>
+</tr>
+</tbody>
+</table>
+
+</p>
+
+<p>One limitation that we encountered was due to ACM’s inability to detect the “reason” attribute for medication intake. For example, consider this short note: “patient took motrin 200 mg tablet for pain and fever.” In this case, the dataset would contain two entries for reason extraction: a) motrin 200 mg tablet for pain, and b) motrin 200 mg tablet for fever. However, since ACM does not recognize reasons, it extracts only one output - “motrin 200 mg tablet” - from the narrative.</p>
+
+<p>Omission of these entries does affect the performance numbers and makes the comparison with other systems only approximate since those systems did take “reason” extraction into account. For the sake of simplicity, in our initial analysis we excluded all the “reason” entries while computing ACM performance (<strong>ACM-without-reason</strong> in Table 1). There are a total of 1,342 such instances in the i2b2 test dataset, accounting for approximately 6% of all extraction targets.</p>
+
+<p>To circumnavigate this subtlety, we also re-computed ACM performance for:
+a) perfect-case scenario (<strong>ACM-perfect-reason</strong> in Table 1), assuming ACM correctly extracts all “reason” entries, and
+b) competitive-case scenario (<strong>ACM-competitive-reason</strong> in Table 1), assuming ACM correctly extracts as many reason entries as the best performer on the reason dimension on this dataset [9].</p>
+
+<p>Interestingly, even the perfect-case adjustment bumps up ACM’s performance only to a F-score of 0.782, which is still lower than all other systems compared. In contrast, Doan et. al’s algorithm and open source system achieves almost six percentage points higher than ACM.</p>
+
+<p>From our observations, one of the common sources of error pertains to misclassification of certain medications by ACM as treatment names. Some examples that surfaced include oxygen, packed red blood cells, chemotherapy, ace inhibitor, diuretics, beta-blockers, and angiotensin II receptor blockers. While one could argue that this is a matter of interpretation, these nuances could have implications for specific use-cases, particularly when they serve as inputs to automated downstream applications.</p>
+
+<p>Another curious behavior that we observed was ACM’s sensitivity to white space. For example, if the complete medication name “polysaccharide iron complex” happens to have a new line inserted after polysaccharide, the extracted entity by ACM only included “iron complex”. Given the fact that clinical notes are plagued with numerous syntactic and grammatical issues, this behavior can significantly impact performance and yield unstable results.</p>
+
+<p>Notwithstanding these shortcomings, that are not unusual in a complex data product, the benefits that ACM provides are real. First and foremost, it provides a clean API that can easily scale to handle large workloads while ensuring data security and privacy. While our analysis focused solely on the medication extraction subtask, several other important informational elements can be extracted with the same API call. The underlying deep learning models and technology that power ACM have already been implemented and are likely to be updated routinely as end-user requirements evolve. Multiple modes of access—web console and programmatic access via Python or Java—cater to a wide audience with varying levels of skill and facility for technology. All this complexity is hidden from the end-users and requires only modest computing skills for effective use.</p>
+
+<p>In addition, there is no upfront fee or commitment that could lock users into a singular solution, which means users only pay for what they use. This diminishes the need to invest in in-house experts for building advanced algorithms and/or managing large-scale infrastructure to support such algorithms, which is outside the mission of most hospitals and care practices, especially smaller ones.</p>
+
+<p>For most users, these substantial benefits will have to be carefully weighed against the cost factor which can certainly ramp up quickly for blanket use. As of March 2019, cost per unit was fixed at $0.01, where one unit = 100 UTF-8 characters. In our evaluation using the 251 test set notes, which have an average length of 6,643 characters, we incurred approximately $166 for a single analysis run. Scaled use to all medical notes generated by a hospital will likely be cost-prohibitive and highly dependent on the use case, especially for large healthcare systems that may generate several thousands of clinical notes each day. That said, the pay-per-use model may allow institutions to carve out select-use cases that work for them.</p>
+
+<p>Altogether, ACM presents a promising approach with its built-in simplicity and usability. The combination of all the above factors can empower end-users to innovate and drive usage. In terms of performance, at least for now and for the medication extraction subtask, better open source alternatives do exist. But they come with their own trade-offs regarding human and computing resources required to operate them, and other similar models in this space, at scale. It will definitely be interesting to see how ACM as a product and its adoption into clinical workflows evolve over time.</p>
+
+<p>Our team is conducting further analyses on ACM's core capabilities and how it may fit into our operational requirements. These additional details and comparisons will be published in the near future.</p>
+
+<p><em>For correspondence about this work, you may contact Ben Guzman at <a href="mailto:bvg228@nyu.edu" target="_blank">bvg228@nyu.edu</a> or Himanshu Grover at <a href="mailto:himanshu.grover@nyulangone.org" target="_blank">himanshu.grover@nyulangone.org</a>.</em></p>
+
+<p><strong>References:</strong></p>
+
+<ol>
+<li>Amazon Web Services. Accessed May 15, 2019 from <a href="https://aws.amazon.com/comprehend/medical/">https://aws.amazon.com/comprehend/medical/</a>.</li>
+<li>Jin M, Bahadori MT, Colak A, Bhatia P, Celikkaya B, Bhakta R, Senthivel S, Khalilia M, Navarro D, Zhang B, Doman T. Improving hospital mortality prediction with medical named entities and multimodal learning. arXiv preprint arXiv:1811.12276. 2018 Nov 29.</li>
+<li>Bhatia P, Celikkaya B, Khalilia M. End-to-end Joint Entity Extraction and Negation Detection for Clinical Text. arXiv preprint arXiv:1812.05270. 2018 Dec 13.</li>
+<li>Singh G, Bhatia P. Relation Extraction using Explicit Context Conditioning. arXiv preprint arXiv:1902.09271. 2019 Feb 25.</li>
+<li>Bhatia P, Arumae K, Celikkaya B. Dynamic Transfer Learning for Named Entity Recognition. arXiv preprint arXiv:1812.05288. 2018 Dec 13.</li>
+<li>Koda-Kimble MA. Koda-Kimble and Young's applied therapeutics: the clinical use of drugs. Lippincott Williams &amp; Wilkins; 2012 Feb 1.</li>
+<li>Tariq RA, Scherbak Y. Medication Errors. [Updated 2019 Apr 28]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2019 Jan-. Available from: <a href="https://www.ncbi.nlm.nih.gov/books/NBK519065/">https://www.ncbi.nlm.nih.gov/books/NBK519065/</a></li>
+<li>Uzuner Ö, Solti I, Cadag E. Extracting medication information from clinical text. Journal of the American Medical Informatics Association. 2010 Sep 1;17(5):514-8.</li>
+<li>Patrick J, Li M. High accuracy information extraction of medication information from clinical notes: 2009 i2b2 medication extraction challenge. Journal of the American Medical Informatics Association. 2010 Sep 1;17(5):524-7.</li>
+<li>Doan S, Bastarache L, Klimkowski S, Denny JC, Xu H. Integrating existing natural language processing tools for medication extraction from discharge summaries. Journal of the American Medical Informatics Association. 2010 Sep 1;17(5):528-31.</li>
+<li>Tao C, Filannino M, Uzuner Ö. Prescription extraction using CRFs and word embeddings. Journal of biomedical informatics. 2017 Aug 1;72:60-6</li>
+</ol>
+
+		  
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    
+                      <li>
+                        <a href="mailto:predictiveanalytics@nyumc.org">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    <li>
+                      <a href="https://twitter.com/nyulmc_predict">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://github.com/nyupau">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">Code released under the Apache 2.0 license.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://nyupau.github.io//js/jquery.min.js"></script>
+
+    
+    <script src="https://nyupau.github.io//js/bootstrap.min.js"></script>
+
+    
+    <script src="https://nyupau.github.io//js/clean-blog.js"></script>
+
+    
+
+</body>
+
+</html>
+
+

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on NYU Predictive Analytics Unit</title>
-    <link>https://nyupau.github.io/posts/</link>
-    <description>Recent content in Posts on NYU Predictive Analytics Unit</description>
+    <title>Vendor on NYU Predictive Analytics Unit</title>
+    <link>https://nyupau.github.io/tags/vendor/</link>
+    <description>Recent content in Vendor on NYU Predictive Analytics Unit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
     <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nyupau.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nyupau.github.io/tags/vendor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,21 +20,6 @@
       <guid>https://nyupau.github.io/posts/amazon_comprehend/</guid>
       <description>The field of medicine is undergoing a massive transformation with widespread adoption and meaningful use of health information technology, promoted by the HITECH (Health Information Technology for Economic and Clinical Health) Act of 2009. With clinical practice now becoming increasingly data-driven, new tools powered by machine learning and artificial intelligence are being mobilized to solve tough problems.
 A large proportion of patient healthcare data is recorded in the form of free-text narratives, such as admission and progress notes, consult notes, and discharge summaries.</description>
-    </item>
-    
-    <item>
-      <title>Two Quotes</title>
-      <link>https://nyupau.github.io/posts/two-quotes/</link>
-      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nyupau.github.io/posts/two-quotes/</guid>
-      <description> Two quotes To start off our new website, we wanted to share two quotes.
-The first is from Yin:
- &amp;ldquo;It is difficult to make predictions, especially about the future.&amp;rdquo; (English translation)
-&amp;ldquo;Det er vanskeligt at spaa, især naar det gælder Fremtiden.&amp;rdquo;
- And the second, slightly less profound, quote is from Walter:
- &amp;ldquo;Have you tried changing the learning rate?&amp;rdquo;
- </description>
     </item>
     
   </channel>
